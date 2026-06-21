@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="FrotaLink logo">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="28" x2="448" y2="484" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#02080d"/>
+      <stop offset="0.55" stop-color="#08131a"/>
+      <stop offset="1" stop-color="#020609"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="118" y1="106" x2="436" y2="390" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#64c9ff"/>
+      <stop offset="0.52" stop-color="#1494e6"/>
+      <stop offset="1" stop-color="#075ba4"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="82" y1="144" x2="422" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#9ca8b0"/>
+      <stop offset="1" stop-color="#4e5961"/>
+    </linearGradient>
+    <linearGradient id="truck" x1="142" y1="156" x2="395" y2="287" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d7e1e7"/>
+      <stop offset="0.3" stop-color="#7f909d"/>
+      <stop offset="0.75" stop-color="#2c3942"/>
+      <stop offset="1" stop-color="#10181e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="34" fill="url(#bg)"/>
+  <path d="M76 269a180 180 0 0 1 354-47" fill="none" stroke="url(#blue)" stroke-width="13" stroke-linecap="round"/>
+  <path d="M62 269a194 194 0 0 1 83-159" fill="none" stroke="url(#silver)" stroke-width="13" stroke-linecap="round" opacity="0.92"/>
+  <path d="M432 242a180 180 0 0 1 17 71" fill="none" stroke="url(#silver)" stroke-width="13" stroke-linecap="round" opacity="0.82"/>
+
+  <g filter="url(#shadow)">
+    <path d="M124 277h305l22 52-27 52H88l-27-52 22-52h41Z" fill="#050b0f" stroke="url(#silver)" stroke-width="5"/>
+    <path d="M90 284h346l16 39-30 46H93l-30-46 27-39Z" fill="#091117"/>
+    <path d="M91 284h346l14 36-27 41H93l-27-41 25-36Z" fill="none" stroke="#1789d4" stroke-width="4" opacity="0.9"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M126 151h132c43 0 73 15 96 44l55 69H110l16-113Z" fill="url(#truck)"/>
+    <path d="M104 265h322l-18 20H93l11-20Z" fill="#0b1218"/>
+    <path d="M169 159h63l-13 49h-69l19-49Z" fill="#0a151d" opacity="0.9"/>
+    <path d="M247 161h32c29 0 52 11 68 33l19 27H236l11-60Z" fill="#111e27" opacity="0.94"/>
+    <path d="M363 194h45l55 72h-46l-54-72Z" fill="#1b2630"/>
+    <path d="M121 227h87l-8 26h-91l12-26Z" fill="#060b0f"/>
+    <path d="M228 226h176l20 27H223l5-27Z" fill="#111820"/>
+    <path d="M135 241h54" stroke="#d8f7ff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M258 240h46" stroke="#d8f7ff" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="178" cy="272" r="22" fill="#070b0e" stroke="#9eabb3" stroke-width="6"/>
+    <circle cx="178" cy="272" r="8" fill="#c9d2d8"/>
+    <circle cx="350" cy="272" r="22" fill="#070b0e" stroke="#9eabb3" stroke-width="6"/>
+    <circle cx="350" cy="272" r="8" fill="#c9d2d8"/>
+    <circle cx="405" cy="272" r="22" fill="#070b0e" stroke="#9eabb3" stroke-width="6"/>
+    <circle cx="405" cy="272" r="8" fill="#c9d2d8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <text x="75" y="356" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900" font-style="italic" fill="#f8fbfd">Frota</text>
+    <text x="291" y="356" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="900" font-style="italic" fill="url(#blue)">Link</text>
+  </g>
+
+  <path d="M139 414 233 377" stroke="url(#blue)" stroke-width="10" opacity="0.8"/>
+  <path d="M225 431 319 379" stroke="url(#silver)" stroke-width="10" opacity="0.8"/>
+  <path d="M318 430 388 380" stroke="url(#silver)" stroke-width="10" opacity="0.8"/>
+</svg>
